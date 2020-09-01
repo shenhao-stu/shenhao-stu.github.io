@@ -12,7 +12,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Royal TSX 使用VNC登陆Ubuntu18.04远程桌面, HTML,CSS,JavaScript,JQuery,React,Vue.js,Docker,Python,Linux等">
+    <meta name="keywords" content="Picgo图床配置, HTML,CSS,JavaScript,JQuery,React,Vue.js,Docker,Python,Linux等">
     <meta name="description" content="专注于Web,立志于全栈,分享生活,分享知识">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -35,7 +35,7 @@
 </script>
 
 
-    <title>Royal TSX 使用VNC登陆Ubuntu18.04远程桌面 | shenhao&#39;s blog</title>
+    <title>Picgo图床配置 | shenhao&#39;s blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -339,12 +339,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/shenhao-stu/cdn/Jisoo/9.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Royal TSX 使用VNC登陆Ubuntu18.04远程桌面</h1>
+                    <h1 class="description center-align post-title">Picgo图床配置</h1>
                 </div>
             </div>
         </div>
@@ -468,16 +468,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Ubuntu/">
-                                <span class="chip bg-color">Ubuntu</span>
-                            </a>
-                        
-                            <a href="/tags/VNC/">
-                                <span class="chip bg-color">VNC</span>
-                            </a>
-                        
-                            <a href="/tags/Royal-TSX/">
-                                <span class="chip bg-color">Royal TSX</span>
+                            <a href="/tags/Picgo/">
+                                <span class="chip bg-color">Picgo</span>
                             </a>
                         
                     </div>
@@ -488,8 +480,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Linux/" class="post-category">
-                                Linux
+                            <a href="/categories/Hexo%E4%B8%AA%E6%80%A7%E5%8C%96/" class="post-category">
+                                Hexo个性化
                             </a>
                         
                     </div>
@@ -501,7 +493,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-09-01
+                    2020-08-31
                 </div>
                 
 
@@ -515,14 +507,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.1k
+                    611
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    4 分
+                    2 分
                 </div>
                 
 
@@ -537,91 +529,37 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="欢迎来到shenhao的AI-大数据技术之旅blog-VNC远程图形桌面的配置之Ubuntu-18-04"><a href="#欢迎来到shenhao的AI-大数据技术之旅blog-VNC远程图形桌面的配置之Ubuntu-18-04" class="headerlink" title="欢迎来到shenhao的AI +大数据技术之旅blog-VNC远程图形桌面的配置之Ubuntu 18.04"></a>欢迎来到shenhao的AI +大数据技术之旅blog-VNC远程图形桌面的配置之Ubuntu 18.04</h1><blockquote>
-<p><strong>Linux云服务器</strong>一般采用SSH连接方式，使用密钥对进行安全地无密码访问。但是SSH连接一般都是字符界面，有时我们需要使用图形界面进行一些复杂操作。本篇文章将以<strong>Ubuntu 18.04</strong>操作系统为例，介绍如何为云服务器安装<strong>VNC Server</strong>，以及如何使用Royal TSX连接云服务器。</p>
+                <h1 id="PicGo图床配置教程"><a href="#PicGo图床配置教程" class="headerlink" title="PicGo图床配置教程"></a>PicGo图床配置教程</h1><h2 id="一、什么是图床"><a href="#一、什么是图床" class="headerlink" title="一、什么是图床"></a>一、什么是图床</h2><p>图床一般是指储存图片的服务器，有国内和国外之分。国外的图床由于有空间距离等因素决定访问速度很慢影响图片显示速度。国内也分为单线空间、多线空间和cdn加速三种。 </p>
+<p>简单来说就是：在文章中引用指定网址显示图片。 </p>
+<p><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/1.png"></p>
+<p><font color="red">平常我们都是在网络上复制粘贴网络图片的地址，太out了，如何快速引用本地图片呢？？</font></p>
+<h2 id="二、配置教程"><a href="#二、配置教程" class="headerlink" title="二、配置教程"></a>二、配置教程</h2><h3 id="1-获取Token"><a href="#1-获取Token" class="headerlink" title="1.获取Token"></a>1.获取Token</h3><blockquote>
+<p> github云端仓库位置： 延续上一次cdn的仓库失败。（建议新建一个仓库，发布过release版本号的仓库会使用异常）</p>
 </blockquote>
-<h2 id="VNC服务器搭建"><a href="#VNC服务器搭建" class="headerlink" title="VNC服务器搭建"></a>VNC服务器搭建</h2><h3 id="1-准备工作"><a href="#1-准备工作" class="headerlink" title="1. 准备工作"></a>1. 准备工作</h3><ul>
-<li>已创建一台Ubuntu 18.04操作系统的云服务器，并且为云服务器绑定弹性公网IP，确保可以连接互联网。</li>
-<li>已在本地macos系统安装Royal RSX客户端，并安装VNC的插件。</li>
-</ul>
-<h3 id="2-安装VNC-Server"><a href="#2-安装VNC-Server" class="headerlink" title="2. 安装VNC Server"></a>2. 安装VNC Server</h3><p>默认情况下，Ubuntu 18.04操作系统没有安装图形环境或VNC Server。本示例中，桌面环境使用Xfce，它是一个精简的轻量化桌面，与Gnome和KDE相比更小巧，并且界面美观、对用户友好，适合云服务器远程连接场景下使用。</p>
-<ol>
-<li><p>通过Royal TSX的ssh插件远程登录云服务器。<br>帐号、密码：您在创建云服务器时设置的密码。</p>
+<p>1.进入设置Setting<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/3.png"><br>2.选择开发者设置Developer setting<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/2.png"><br>3.选择个人数据帧Personal access tokens，生成新的数据帧 Generate new token<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/4.png"><br>4.命名为picgo（图床），赋予仓库权限<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/5.png"><br>5.最后点击Generate token即可看到显示的token页面，<strong>它只会显示一次，关闭页面后再打开这个页面就不会显示了。</strong> 复制token值粘贴到文本文档中，先保存下来，后面配置PicGo要用到。<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/6.png"></p>
+<h3 id="2-本地安装图片上传工具"><a href="#2-本地安装图片上传工具" class="headerlink" title="2.本地安装图片上传工具"></a>2.本地安装图片上传工具</h3><ol>
+<li><p>首先下载PicGo，图片上传工具PicGo下载址:<a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo/releases">https://github.com/Molunerfinn/PicGo/releases</a></p>
 </li>
-<li><p>执行以下命令，更新软件列表。</p>
-</li>
-</ol>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">sudo</span> apt update</code></pre>
-<ol start="3">
-<li>安装Xfce桌面环境。</li>
-</ol>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">sudo</span> apt <span class="token function">install</span> xfce4 xfce4-goodies</code></pre>
-<ol start="4">
-<li>执行完成后，安装<strong>vnc4server</strong>服务器。</li>
-</ol>
-<pre class=" language-bash"><code class="language-bash"><span class="token function">sudo</span> apt <span class="token function">install</span> vnc4server</code></pre>
-<ol start="5">
-<li>安装完成后使用<code>vnc4server</code>命令设置安全密码并初始化配置文件：</li>
-</ol>
-<pre class=" language-bash"><code class="language-bash">vnc4server
-<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> You will require a password to access you desktop
-
-<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> Password:
-<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> Verify:
-</code></pre>
-<ol start="6">
-<li>注意最后问是否设置一个只读密码要选否，否则客户端登陆只会看到一个黑屏：<pre class=" language-bash"><code class="language-bash">Would you like to enter a view-only password <span class="token punctuation">(</span>y/n<span class="token punctuation">)</span>? n</code></pre>
+<li><p>安装配置PicGo<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/7.png"></p>
 </li>
 </ol>
 <ul>
-<li>密码：长度为6~8个字符。超过8个字符的密码将自动截断。请牢- - 记该密码，VNC Viewer连接云服务器时会使用。</li>
-<li>验证密码：再次输入密码。</li>
-<li>是否创建仅查看密码：使用仅查看密码登录的用户将无法使用鼠标或键盘控制云服务器。此处输入“n”。</li>
+<li>设定仓库名：这个是刚刚第一步所新建仓库的名称，我的为cdn，此处填写格式username/repo。 </li>
+<li>设定分支名：master，采用默认分支即可 </li>
+<li>设定Token：此处填写上一步得到的Token，添加到输入框即可。</li>
+<li>指定存储路径：自定义，例：images/，相当于在刚刚新建的仓库下新建了一个文件夹。 </li>
+<li>设定自定义域名：cdn加速格式：<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/username/repo">https://cdn.jsdelivr.net/gh/username/repo</a></li>
+<li>username为GitHub用户名，repo为新建的仓库，用于存储图片 </li>
 </ul>
-<h3 id="3-配置VNC服务器"><a href="#3-配置VNC服务器" class="headerlink" title="3. 配置VNC服务器"></a>3. 配置VNC服务器</h3><ol>
-<li>首先停止第一个虚拟桌面。</li>
-</ol>
-<pre class=" language-bash"><code class="language-bash">vncserver -kill :1</code></pre>
-<ol start="2">
-<li>修改xstartup文件。</li>
-</ol>
-<pre class=" language-c"><code class="language-c">vim <span class="token operator">~</span><span class="token operator">/</span><span class="token punctuation">.</span>vnc<span class="token operator">/</span>xstartup</code></pre>
-<p>按“i”进入编辑模式，添加以下内容：</p>
-<pre class=" language-c"><code class="language-c">#<span class="token operator">!</span><span class="token operator">/</span>bin<span class="token operator">/</span>sh
-
-<span class="token macro property"># Uncomment the following two lines for normal desktop:</span>
-<span class="token macro property"># unset SESSION_MANAGER</span>
-<span class="token macro property"># exec /etc/X11/xinit/xinitrc</span>
-
-<span class="token punctuation">[</span> <span class="token operator">-</span>x <span class="token operator">/</span>etc<span class="token operator">/</span>vnc<span class="token operator">/</span>xstartup <span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> exec <span class="token operator">/</span>etc<span class="token operator">/</span>vnc<span class="token operator">/</span>xstartup
-<span class="token punctuation">[</span> <span class="token operator">-</span>r $HOME<span class="token operator">/</span><span class="token punctuation">.</span>Xresources <span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> xrdb $HOME<span class="token operator">/</span><span class="token punctuation">.</span>Xresources
-xsetroot <span class="token operator">-</span>solid grey
-vncconfig <span class="token operator">-</span>iconic <span class="token operator">&amp;</span>
-x<span class="token operator">-</span>terminal<span class="token operator">-</span>emulator <span class="token operator">-</span>geometry 80x24<span class="token operator">+</span><span class="token number">10</span><span class="token operator">+</span><span class="token number">10</span> <span class="token operator">-</span>ls <span class="token operator">-</span>title <span class="token string">"$VNCDESKTOP"</span> <span class="token operator">&amp;</span>
-unset SESSION_MANAGER
-unset DBUGS_SESSION_BUS_ADDRESS
-startxfce4 <span class="token operator">&amp;</span></code></pre>
-<p>其中，前两行是销毁被侵占的环境变量，最后一行表明使用的为xfce的桌面系统。<br>3. 为了保证VNC服务正常启动，需要配置可执行。</p>
-<pre class=" language-c"><code class="language-c">sudo chmod <span class="token operator">+</span>x <span class="token operator">~</span><span class="token operator">/</span><span class="token punctuation">.</span>vnc<span class="token operator">/</span>xstartup</code></pre>
-<h2 id="正式开启VNC服务"><a href="#正式开启VNC服务" class="headerlink" title="正式开启VNC服务"></a>正式开启VNC服务</h2><p>执行<code>vnc4server</code>命令正式开启VNC服务。默认在5901端口上启动默认服务器实例。该端口为显示端口，由VNC称为:1。实质上VNC使用的TCP端口从5900开始，尾数与桌面号相关。1号桌面为5901，2号桌面为5902，依次类推。</p>
-<p>手动启动VNC服务时可以直接指定分辨率与桌面号，命令如下：</p>
-<pre class=" language-c"><code class="language-c">vnc4server <span class="token operator">-</span>geometry 1920x1080 <span class="token punctuation">:</span><span class="token number">1</span></code></pre>
-<p>停止服务的命令为：</p>
-<pre class=" language-c"><code class="language-c">vnc4server <span class="token operator">-</span>kill <span class="token punctuation">:</span><span class="token number">1</span></code></pre>
-<h2 id="关闭TCP端口的防火墙"><a href="#关闭TCP端口的防火墙" class="headerlink" title="关闭TCP端口的防火墙"></a>关闭TCP端口的防火墙</h2><p>在远程连接VNC服务之前，我们还需要关闭相应TCP端口的防火墙，命令如下：</p>
-<pre class=" language-c"><code class="language-c">sudo ufw allow <span class="token number">5901</span></code></pre>
-<h2 id="云服务器控制台配置"><a href="#云服务器控制台配置" class="headerlink" title="云服务器控制台配置"></a>云服务器控制台配置</h2><ol>
-<li>登录云服务器管理控制台。</li>
-<li>单击弹性云服务器名称，进入详情页面。</li>
-<li>在“安全组”页签，单击“更改安全组规则”，放行5901端口。<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zdXBwb3J0Lmh1YXdlaWNsb3VkLmNvbS9iZXN0cHJhY3RpY2UtZWNzL3poLWNuX2ltYWdlXzAyMjE0NzQxNTQucG5n?x-oss-process=image/format,png#pic_center" alt="在这里插入图片描述"><blockquote>
-<p>说明：<br>如果4中回显的日志文件为“xxx:2.log”，则需要放行5902端口；如果为“xxx:3.log”，则需要放行5903端口，以此类推。</p>
-</blockquote>
+<h2 id="三、上传方法"><a href="#三、上传方法" class="headerlink" title="三、上传方法"></a>三、上传方法</h2><ol>
+<li><p>快捷键上传 </p>
+</li>
+<li><p>拖拽上传<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/8.png"><br>上传后，云端图片显示：<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/9.png"></p>
+</li>
+<li><p>使用方法：选择<strong>相册</strong>，可<strong>复制、修改链接、删除</strong>图片（不能删除github上的图片，需要手动删除）：<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/11.png"> </p>
 </li>
 </ol>
-<h2 id="使用VNC-Viewer连接云服务器"><a href="#使用VNC-Viewer连接云服务器" class="headerlink" title="使用VNC Viewer连接云服务器"></a>使用VNC Viewer连接云服务器</h2><p>在本地PC打开Royal TSX客户端，输入云服务器的弹性公网IP，端口号为5901，输入root以及密码，单击“Apply &amp; Close”。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20200803020844911.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDcwNjM0Mw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20200803020844867.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDcwNjM0Mw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>登陆链接<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20200803020845129.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDcwNjM0Mw==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p><a target="_blank" rel="noopener" href="https://baijiahao.baidu.com/s?id=1645514514391414083&amp;wfr=spider&amp;for=pc">Ubuntu Desktop 18.04 Gnome桌面配置VNC Server
-</a></p>
+<h2 id="四、解决无法上传的问题"><a href="#四、解决无法上传的问题" class="headerlink" title="四、解决无法上传的问题"></a>四、解决无法上传的问题</h2><p>进入PicGo设置，找到设置Server，并选择关闭<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/10.png"></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -665,7 +603,7 @@ startxfce4 <span class="token operator">&amp;</span></code></pre>
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://shenhao-stu.github.io/2020/09/01/royal-tsx-shi-yong-vnc-deng-lu-ubuntu18.04-yuan-cheng-zhuo-mian/">https://shenhao-stu.github.io/2020/09/01/royal-tsx-shi-yong-vnc-deng-lu-ubuntu18.04-yuan-cheng-zhuo-mian/</a>
+                    <a href="https://shenhao-stu.github.io/post/bfd4.html">https://shenhao-stu.github.io/post/bfd4.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -703,16 +641,8 @@ startxfce4 <span class="token operator">&amp;</span></code></pre>
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Ubuntu/">
-                                    <span class="chip bg-color">Ubuntu</span>
-                                </a>
-                            
-                                <a href="/tags/VNC/">
-                                    <span class="chip bg-color">VNC</span>
-                                </a>
-                            
-                                <a href="/tags/Royal-TSX/">
-                                    <span class="chip bg-color">Royal TSX</span>
+                                <a href="/tags/Picgo/">
+                                    <span class="chip bg-color">Picgo</span>
                                 </a>
                             
                         </div>
@@ -1147,64 +1077,7 @@ startxfce4 <span class="token operator">&amp;</span></code></pre>
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/09/01/vnc-yuan-cheng-tu-xing-zhuo-mian-de-pei-zhi-zhi-ubuntu-18.04-de-gnome-shi-xian/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="/medias/featureimages/18.jpg" class="responsive-img" alt="VNC远程图形桌面的配置之Ubuntu 18.04的Gnome实现">
-                        
-                        <span class="card-title">VNC远程图形桌面的配置之Ubuntu 18.04的Gnome实现</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            欢迎来到shenhao的AI +大数据技术之旅blog-VNC远程图形桌面的配置之Ubuntu 18.04的Gnome实现VNC代表虚拟网络计算。从本质上讲，它是一个远程显示系统，不仅允许您在当前运行的计算机上查看桌面环境，而且从Inter
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-09-01
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Linux/" class="post-category">
-                                    Linux
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Gnome/">
-                        <span class="chip bg-color">Gnome</span>
-                    </a>
-                    
-                    <a href="/tags/Ubuntu/">
-                        <span class="chip bg-color">Ubuntu</span>
-                    </a>
-                    
-                    <a href="/tags/VNC/">
-                        <span class="chip bg-color">VNC</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2020/09/01/hexo-bo-ke-bu-shu-dao-ma-yun-he-coding/">
+                <a href="/post/e7ac.html">
                     <div class="card-image">
                         
                         
@@ -1220,9 +1093,9 @@ startxfce4 <span class="token operator">&amp;</span></code></pre>
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-09-01
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-09-01
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1248,6 +1121,59 @@ startxfce4 <span class="token operator">&amp;</span></code></pre>
                     
                     <a href="/tags/Gitee/">
                         <span class="chip bg-color">Gitee</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/post/3254.html">
+                    <div class="card-image">
+                        
+                        <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/cdn/Jisoo/8.jpg" class="responsive-img" alt="Docker-2020详细教程">
+                        
+                        <span class="card-title">Docker-2020详细教程</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Docker-2020详细教程&lt;配合千锋Java学习营&gt;一、Docker介绍1.下载Dcoker依的赖环境想安装Docker，需要先将依赖的环境全部下载下来，就像Maven依赖JDK一样
+yum -y install yum-u
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-30
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Linux%E8%BF%90%E7%BB%B4%E6%95%99%E7%A8%8B/" class="post-category">
+                                    Linux运维教程
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Docker/">
+                        <span class="chip bg-color">Docker</span>
+                    </a>
+                    
+                    <a href="/tags/Linux/">
+                        <span class="chip bg-color">Linux</span>
                     </a>
                     
                 </div>

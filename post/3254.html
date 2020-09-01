@@ -553,10 +553,10 @@ https:<span class="token operator">/</span><span class="token operator">/</span>
 http:<span class="token operator">/</span><span class="token operator">/</span>hub<span class="token punctuation">.</span>daocloud<span class="token punctuation">.</span>io<span class="token operator">/</span> （推荐使用）
 3<span class="token punctuation">.</span>在公司内部会采用私服的方式拉取镜像（添加配置）
 <span class="token comment" spellcheck="true">#需要创建 /etc/docker/daemon.json，并添加如下内容</span>
-&amp;<span class="token comment" spellcheck="true">#123;</span>
+<span class="token punctuation">{</span>
     <span class="token string">"registry-mirrors"</span>:<span class="token punctuation">[</span><span class="token string">"https://registry.docker-cn.com"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
     <span class="token string">"insecure-registries"</span>:<span class="token punctuation">[</span><span class="token string">"ip:port"</span><span class="token punctuation">]</span>
-&amp;<span class="token comment" spellcheck="true">#125;</span>
+<span class="token punctuation">}</span>
 <span class="token comment" spellcheck="true">#重启两个服务</span>
 systemctl daemon<span class="token operator">-</span>reload
 systemctl restart docker</code></pre>
@@ -751,7 +751,7 @@ docker<span class="token operator">-</span>compose up <span class="token operato
 <h4 id="3-2-修改ssh的22端口"><a href="#3-2-修改ssh的22端口" class="headerlink" title="3.2 修改ssh的22端口"></a>3.2 修改ssh的22端口</h4><pre class=" language-powershell"><code class="language-powershell"><span class="token comment" spellcheck="true">#将ssh的默认22端口，修改为60022端口，因为Gitlab需要占用22端口</span>
 
 vi <span class="token operator">/</span>etc<span class="token operator">/</span>ssh<span class="token operator">/</span>sshd_config
-  PORT 22 <span class="token operator">-</span>&gt; 60022
+  PORT 22 <span class="token operator">-</span>> 60022
 systemctl restart sshd</code></pre>
 <h4 id="3-3-编写docker-compose-yml"><a href="#3-3-编写docker-compose-yml" class="headerlink" title="3.3 编写docker-compose.yml"></a>3.3 编写docker-compose.yml</h4><pre class=" language-powershell"><code class="language-powershell">docker<span class="token operator">-</span>compose<span class="token punctuation">.</span>yml文件去安装gitlab（下载和运行的时间比较长的）
 
@@ -780,10 +780,10 @@ services:
    <span class="token operator">-</span> <span class="token operator">/</span>opt<span class="token operator">/</span>docker_gitlab<span class="token operator">/</span>logs:<span class="token operator">/</span><span class="token keyword">var</span><span class="token operator">/</span>log<span class="token operator">/</span>gitlab</code></pre>
 <h2 id="十、搭建GitlabRunner"><a href="#十、搭建GitlabRunner" class="headerlink" title="十、搭建GitlabRunner"></a>十、搭建GitlabRunner</h2><h3 id="1-准备文件"><a href="#1-准备文件" class="headerlink" title="1.准备文件"></a>1.准备文件</h3><pre class=" language-powershell"><code class="language-powershell">daemon<span class="token punctuation">.</span>json
 
-&amp;<span class="token comment" spellcheck="true">#123;</span>
+<span class="token punctuation">{</span>
 “registry<span class="token operator">-</span>mirrors”: <span class="token punctuation">[</span>“https:<span class="token operator">/</span><span class="token operator">/</span>registry<span class="token punctuation">.</span>docker<span class="token operator">-</span>cn<span class="token punctuation">.</span>com”<span class="token punctuation">]</span><span class="token punctuation">,</span>
 “insecure<span class="token operator">-</span>registries”: <span class="token namespace">[ip:ports]</span>
-&amp;<span class="token comment" spellcheck="true">#125;</span>
+<span class="token punctuation">}</span>
 
 文件夹 environment里面准备maven安装包，jdk1<span class="token punctuation">.</span>8安装包，Dockerfile，daemon<span class="token punctuation">.</span>json以及docker<span class="token operator">-</span>compose</code></pre>
 <h3 id="2-开始搭建"><a href="#2-开始搭建" class="headerlink" title="2.开始搭建"></a>2.开始搭建</h3><blockquote>
@@ -905,7 +905,7 @@ test:
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://shenhao-stu.github.io/2020/08/30/dokcer2020/">https://shenhao-stu.github.io/2020/08/30/dokcer2020/</a>
+                    <a href="https://shenhao-stu.github.io/post/3254.html">https://shenhao-stu.github.io/post/3254.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1383,7 +1383,7 @@ test:
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/08/31/picgo-tu-chuang-pei-zhi/">
+                <a href="/post/bfd4.html">
                     <div class="card-image">
                         
                         <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/cdn/Jisoo/9.jpg" class="responsive-img" alt="Picgo图床配置">
@@ -1432,7 +1432,7 @@ test:
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/08/30/hello-world/">
+                <a href="/post/3eeb.html">
                     <div class="card-image">
                         
                         
