@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Hexo配置到阿里云</title>
+      <link href="/post/undefined.html"/>
+      <url>/post/undefined.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hexo配置到阿里云上"><a href="#Hexo配置到阿里云上" class="headerlink" title="Hexo配置到阿里云上"></a>Hexo配置到阿里云上</h1><blockquote><p>相关博客的借鉴<br><a href="https://blog.csdn.net/NoCortY/article/details/99631249">https://blog.csdn.net/NoCortY/article/details/99631249</a><br><a href="https://blog.csdn.net/cungudafa/article/details/104585711">https://blog.csdn.net/cungudafa/article/details/104585711</a></p></blockquote><h2 id="一、安装ngnix"><a href="#一、安装ngnix" class="headerlink" title="一、安装ngnix"></a>一、安装ngnix</h2><ol><li>我们需要nginx作为我们的服务器，所以我们首先要安装nginx。可以使用yum命令直接进行安装，安装执行命令如下<br><code>yum install -y nginx</code></li><li>启动服务器：<pre><code>systemctl start nginxsystemctl enable nginx</code></pre></li><li>我们要记住的是**/etc/nginx/**是nginx默认的配置路径，一会要用到。</li></ol><h2 id="二、安装Node-js"><a href="#二、安装Node-js" class="headerlink" title="二、安装Node.js"></a>二、安装Node.js</h2><ol><li>安装nodejs有很多种方式，我这边就说一种<pre><code>curl -sL https://rpm.nodesource.com/setup_10.x | bash -yum install -y nodejs</code></pre></li><li>安装完成后执行 <code>node -v</code>和 <code>npm -v</code>如果打印版本号则安装成功</li></ol><h2 id="三、安装Git及配置仓库"><a href="#三、安装Git及配置仓库" class="headerlink" title="三、安装Git及配置仓库"></a>三、安装Git及配置仓库</h2><p><code>yum install git</code><br>见<a href="https://blog.csdn.net/NoCortY/article/details/99631249">https://blog.csdn.net/NoCortY/article/details/99631249</a></p><h2 id="四、创建blog-git空仓库"><a href="#四、创建blog-git空仓库" class="headerlink" title="四、创建blog.git空仓库"></a>四、创建blog.git空仓库</h2><p><a href="https://blog.csdn.net/cungudafa/article/details/104585711">https://blog.csdn.net/cungudafa/article/details/104585711</a></p><p>五、nginx配置<br><code>vi /etc/nginx/nginx.conf</code></p><ul><li>端口号（阿里云控制台安全组规则要打开端口哦）</li><li>修改域名</li><li>修改根目录位置  <pre><code>location/{  root /home/git/projects/blog;}</code></pre></li><li>修改用户为root用户 将user ngnix改为user root</li></ul><p>在服务器上重新运行nginx服务器<br><code>nginx -s reload</code></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用阿里云部署Flask网页</title>
       <link href="/post/undefined.html"/>
       <url>/post/undefined.html</url>
@@ -20,9 +33,9 @@
       
         <tags>
             
-            <tag> Flask </tag>
-            
             <tag> Aliyun </tag>
+            
+            <tag> Flask </tag>
             
             <tag> Apache </tag>
             
@@ -49,9 +62,9 @@
       
         <tags>
             
-            <tag> Royal TSX </tag>
-            
             <tag> VNC </tag>
+            
+            <tag> Royal TSX </tag>
             
             <tag> Linux </tag>
             
@@ -80,11 +93,11 @@
       
         <tags>
             
+            <tag> Gnome </tag>
+            
             <tag> Ubuntu </tag>
             
             <tag> VNC </tag>
-            
-            <tag> Gnome </tag>
             
         </tags>
       
@@ -109,11 +122,11 @@
       
         <tags>
             
-            <tag> Royal TSX </tag>
-            
             <tag> Ubuntu </tag>
             
             <tag> VNC </tag>
+            
+            <tag> Royal TSX </tag>
             
         </tags>
       
