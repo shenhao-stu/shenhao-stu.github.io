@@ -487,14 +487,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-09-01
+                    2020-09-03
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    284
+                    308
                 </div>
                 
 
@@ -523,6 +523,8 @@
 <li>我们需要nginx作为我们的服务器，所以我们首先要安装nginx。可以使用yum命令直接进行安装，安装执行命令如下<br><code>yum install -y nginx</code></li>
 <li>启动服务器：<pre><code>systemctl start nginx
 systemctl enable nginx</code></pre>
+如果第一个命令错误，关闭apache的80端口<pre><code>vim /etc/httpd/conf/httpd.conf
+systemctl restart httpd.service</code></pre>
 </li>
 <li>我们要记住的是**/etc/nginx/**是nginx默认的配置路径，一会要用到。</li>
 </ol>
@@ -1115,12 +1117,12 @@ yum install -y nodejs</code></pre>
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Flask/">
-                        <span class="chip bg-color">Flask</span>
-                    </a>
-                    
                     <a href="/tags/Aliyun/">
                         <span class="chip bg-color">Aliyun</span>
+                    </a>
+                    
+                    <a href="/tags/Flask/">
+                        <span class="chip bg-color">Flask</span>
                     </a>
                     
                     <a href="/tags/Apache/">
