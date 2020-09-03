@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shenhao-blog.site/post/6cb8.html</loc>
+    
+    <lastmod>2020-09-03</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shenhao-blog.site/post/5eca.html</loc>
     
     <lastmod>2020-09-03</lastmod>
@@ -31,13 +38,6 @@
   
   <url>
     <loc>https://shenhao-blog.site/post/e7ac.html</loc>
-    
-    <lastmod>2020-09-03</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shenhao-blog.site/post/6cb8.html</loc>
     
     <lastmod>2020-09-03</lastmod>
     
@@ -137,6 +137,13 @@
   </url>
   
   <url>
+    <loc>https://shenhao-blog.site/tags/Picgo/</loc>
+    <lastmod>2020-09-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shenhao-blog.site/tags/Coding/</loc>
     <lastmod>2020-09-03</lastmod>
     <changefreq>daily</changefreq>
@@ -151,14 +158,7 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/tags/Picgo/</loc>
-    <lastmod>2020-09-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shenhao-blog.site/tags/Gnome/</loc>
+    <loc>https://shenhao-blog.site/tags/Royal-TSX/</loc>
     <lastmod>2020-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -179,6 +179,13 @@
   </url>
   
   <url>
+    <loc>https://shenhao-blog.site/tags/Gnome/</loc>
+    <lastmod>2020-09-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shenhao-blog.site/tags/nginx/</loc>
     <lastmod>2020-09-03</lastmod>
     <changefreq>daily</changefreq>
@@ -187,27 +194,6 @@
   
   <url>
     <loc>https://shenhao-blog.site/tags/centos/</loc>
-    <lastmod>2020-09-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shenhao-blog.site/tags/Royal-TSX/</loc>
-    <lastmod>2020-09-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shenhao-blog.site/tags/Docker/</loc>
-    <lastmod>2020-09-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shenhao-blog.site/tags/Linux/</loc>
     <lastmod>2020-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -229,6 +215,20 @@
   
   <url>
     <loc>https://shenhao-blog.site/tags/Apache/</loc>
+    <lastmod>2020-09-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shenhao-blog.site/tags/Docker/</loc>
+    <lastmod>2020-09-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shenhao-blog.site/tags/Linux/</loc>
     <lastmod>2020-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -258,13 +258,6 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/categories/Linux%E8%BF%90%E7%BB%B4%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-09-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://shenhao-blog.site/categories/Hexo%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-09-03</lastmod>
     <changefreq>daily</changefreq>
@@ -273,6 +266,13 @@
   
   <url>
     <loc>https://shenhao-blog.site/categories/Python/</loc>
+    <lastmod>2020-09-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shenhao-blog.site/categories/Linux%E8%BF%90%E7%BB%B4%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
