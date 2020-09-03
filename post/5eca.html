@@ -12,7 +12,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Picgo图床配置, HTML,CSS,JavaScript,JQuery,React,Vue.js,Docker,Python,Linux等">
+    <meta name="keywords" content="centos 7-nginx的安装, HTML,CSS,JavaScript,JQuery,React,Vue.js,Docker,Python,Linux等">
     <meta name="description" content="专注于Web,立志于全栈,分享生活,分享知识">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -35,7 +35,7 @@
 </script>
 
 
-    <title>Picgo图床配置 | shenhao&#39;s blog</title>
+    <title>centos 7-nginx的安装 | shenhao&#39;s blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -339,12 +339,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/shenhao-stu/cdn/Jisoo/9.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Picgo图床配置</h1>
+                    <h1 class="description center-align post-title">centos 7-nginx的安装</h1>
                 </div>
             </div>
         </div>
@@ -468,8 +468,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Picgo/">
-                                <span class="chip bg-color">Picgo</span>
+                            <a href="/tags/nginx/">
+                                <span class="chip bg-color">nginx</span>
+                            </a>
+                        
+                            <a href="/tags/centos/">
+                                <span class="chip bg-color">centos</span>
                             </a>
                         
                     </div>
@@ -480,8 +484,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Hexo%E4%B8%AA%E6%80%A7%E5%8C%96/" class="post-category">
-                                Hexo个性化
+                            <a href="/categories/%E8%BF%90%E7%BB%B4/" class="post-category">
+                                运维
                             </a>
                         
                     </div>
@@ -493,7 +497,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-08-31
+                    2020-09-03
                 </div>
                 
 
@@ -507,7 +511,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    559
+                    623
                 </div>
                 
 
@@ -529,37 +533,81 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="PicGo图床配置教程"><a href="#PicGo图床配置教程" class="headerlink" title="PicGo图床配置教程"></a>PicGo图床配置教程</h1><h2 id="一、什么是图床"><a href="#一、什么是图床" class="headerlink" title="一、什么是图床"></a>一、什么是图床</h2><p>图床一般是指储存图片的服务器，有国内和国外之分。国外的图床由于有空间距离等因素决定访问速度很慢影响图片显示速度。国内也分为单线空间、多线空间和cdn加速三种。 </p>
-<p>简单来说就是：在文章中引用指定网址显示图片。 </p>
-<p><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/1.png"></p>
-<p><font color="red">平常我们都是在网络上复制粘贴网络图片的地址，太out了，如何快速引用本地图片呢？？</font></p>
-<h2 id="二、配置教程"><a href="#二、配置教程" class="headerlink" title="二、配置教程"></a>二、配置教程</h2><h3 id="1-获取Token"><a href="#1-获取Token" class="headerlink" title="1.获取Token"></a>1.获取Token</h3><blockquote>
-<p> github云端仓库位置： 延续上一次cdn的仓库失败。（建议新建一个仓库，发布过release版本号的仓库会使用异常）</p>
+                <h1 id="centOS7安装Nginx及简单配置"><a href="#centOS7安装Nginx及简单配置" class="headerlink" title="centOS7安装Nginx及简单配置"></a>centOS7安装Nginx及简单配置</h1><p>Nginx是一款轻量级的Web服务器/反向代理服务器及电子邮件（IMAP/POP3）代理服务器，在BSD-like 协议下发行。其特点是占有内存少，并发能力强，事实上nginx的并发能力确实在同类型的网页服务器中表现较好，中国大陆使用nginx网站用户有：百度、京东、新浪、网易、腾讯、淘宝等。</p>
+<h2 id="1-安装Nginx前的准备"><a href="#1-安装Nginx前的准备" class="headerlink" title="1.安装Nginx前的准备"></a>1.安装Nginx前的准备</h2><p>由于nginx的一些模块依赖一些lib库，所以在安装nginx之前，必须先安装这些lib库，主要有g++、gcc、openssl-devel、pcre-devel和zlib-devel 。</p>
+<blockquote>
+<p>注意原博主下面的命令有误</p>
 </blockquote>
-<p>1.进入设置Setting<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/3.png"><br>2.选择开发者设置Developer setting<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/2.png"><br>3.选择个人数据帧Personal access tokens，生成新的数据帧 Generate new token<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/4.png"><br>4.命名为picgo（图床），赋予仓库权限<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/5.png"><br>5.最后点击Generate token即可看到显示的token页面，<strong>它只会显示一次，关闭页面后再打开这个页面就不会显示了。</strong> 复制token值粘贴到文本文档中，先保存下来，后面配置PicGo要用到。<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/6.png"></p>
-<h3 id="2-本地安装图片上传工具"><a href="#2-本地安装图片上传工具" class="headerlink" title="2.本地安装图片上传工具"></a>2.本地安装图片上传工具</h3><ol>
-<li><p>首先下载PicGo，图片上传工具PicGo下载址:<a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo/releases">https://github.com/Molunerfinn/PicGo/releases</a></p>
-</li>
-<li><p>安装配置PicGo<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/7.png"></p>
-</li>
-</ol>
-<ul>
-<li>设定仓库名：这个是刚刚第一步所新建仓库的名称，我的为cdn，此处填写格式username/repo。 </li>
-<li>设定分支名：master，采用默认分支即可 </li>
-<li>设定Token：此处填写上一步得到的Token，添加到输入框即可。</li>
-<li>指定存储路径：自定义，例：images/，相当于在刚刚新建的仓库下新建了一个文件夹。 </li>
-<li>设定自定义域名：cdn加速格式：<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/username/repo">https://cdn.jsdelivr.net/gh/username/repo</a></li>
-<li>username为GitHub用户名，repo为新建的仓库，用于存储图片 </li>
+<p>所以执行如下命令安装</p>
+<pre><code>yum install gcc-g++
+yum install pcre pcre-devel
+yum install zlib zlib-devel
+yum install openssl openssl-devel</code></pre>
+<h2 id="2-安装Nginx"><a href="#2-安装Nginx" class="headerlink" title="2.安装Nginx"></a>2.安装Nginx</h2><h5 id="1-从官网下载最新稳定版的nginx"><a href="#1-从官网下载最新稳定版的nginx" class="headerlink" title="(1) 从官网下载最新稳定版的nginx"></a>(1) 从官网下载最新稳定版的nginx</h5><p>官网地址：<a target="_blank" rel="noopener" href="http://nginx.org/en/download.html">http://nginx.org/en/download.html</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/shenhao-stu/picgo/raw/master/Jisoo/20191015092125278.png"></p>
+<p>输入：</p>
+<p><code>wget http://nginx.org/download/nginx-1.16.1.tar.gz</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/shenhao-stu/picgo/raw/master/Jisoo/20191015092143520.png" alt="在这里插入图片描述"></p>
+<h5 id="2-解压"><a href="#2-解压" class="headerlink" title="(2) 解压"></a>(2) 解压</h5><p>输入：</p>
+<p><code>tar -zxvf nginx-1.16.1.tar.gz</code><br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/shenhao-stu/picgo/raw/master/Jisoo/20191015092155895.png"></p>
+<h5 id="3-使用默认配置"><a href="#3-使用默认配置" class="headerlink" title="(3) 使用默认配置"></a>(3) 使用默认配置</h5><pre><code>cd nginx-1.16.1
+./configure --prefix=/usr/local/nginx --with-http_ssl_module</code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/shenhao-stu/picgo/raw/master/Jisoo/20191015092209745.png"></p>
+<h5 id="4-编译安装"><a href="#4-编译安装" class="headerlink" title="(4) 编译安装"></a>(4) 编译安装</h5><p><code>make &amp;&amp; make install</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/shenhao-stu/picgo/raw/master/Jisoo/20191015092222258.png"></p>
+<h5 id="5-查看nginx的位置"><a href="#5-查看nginx的位置" class="headerlink" title="(5) 查看nginx的位置"></a>(5) 查看nginx的位置</h5><p>输入：</p>
+<pre><code>whereis nginx</code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/shenhao-stu/picgo/raw/master/Jisoo/2019101509224531.png"></p>
+<h2 id="3-常用命令"><a href="#3-常用命令" class="headerlink" title="3. 常用命令"></a>3. 常用命令</h2><h5 id="1-修改配置："><a href="#1-修改配置：" class="headerlink" title="1. 修改配置："></a>1. 修改配置：</h5><pre><code>vi /usr/local/nginx/conf/nginx.conf</code></pre>
+<h5 id="2-启动nginx-如果运行reload是报错缺少error就执行此步"><a href="#2-启动nginx-如果运行reload是报错缺少error就执行此步" class="headerlink" title="2. 启动nginx(如果运行reload是报错缺少error就执行此步)"></a>2. 启动nginx(如果运行reload是报错缺少error就执行此步)</h5><pre><code>sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf</code></pre>
+<h5 id="3-汇总"><a href="#3-汇总" class="headerlink" title="3. 汇总"></a>3. 汇总</h5><ul>
+<li>启动：<code>/usr/local/nginx/sbin/nginx</code></li>
+<li>关闭：<code>/usr/local/nginx/sbin/nginx -s stop</code></li>
+<li>重启：<code>/usr/local/nginx/sbin/nginx -s reload</code></li>
+<li>查看nginx的进程pid： <code>cat /usr/local/nginx/logs/nginx.pid</code></li>
+<li>查看版本：<code>/usr/local/nginx/sbin/nginx -V</code></li>
+<li>修改配置文件：<code>vim /usr/local/nginx/conf/nginx.conf</code></li>
+<li>修改完后测试：<code>/usr/local/nginx/sbin/nginx -t</code></li>
 </ul>
-<h2 id="三、上传方法"><a href="#三、上传方法" class="headerlink" title="三、上传方法"></a>三、上传方法</h2><ol>
-<li><p>快捷键上传 </p>
+<p>tips：为 nginx 取别名，后面可直接用🧡</p>
+<pre><code>alias nginx=&#39;/usr/local/nginx/sbin/nginx&#39;</code></pre>
+<ul>
+<li><p>启动：<code>nginx</code></p>
 </li>
-<li><p>拖拽上传<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/8.png"><br>上传后，云端图片显示：<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/9.png"></p>
+<li><p>关闭：<code>nginx -s stop</code></p>
 </li>
-<li><p>使用方法：选择<strong>相册</strong>，可<strong>复制、修改链接、删除</strong>图片（不能删除github上的图片，需要手动删除）：<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/11.png"> </p>
+<li><p>平稳关闭: <code>nginx -s quit #平稳关闭nginx，保存相关信息，有安排的结束web服务</code></p>
 </li>
-</ol>
-<h2 id="四、解决无法上传的问题"><a href="#四、解决无法上传的问题" class="headerlink" title="四、解决无法上传的问题"></a>四、解决无法上传的问题</h2><p>进入PicGo设置，找到设置Server，并选择关闭<br><img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/picgo/images/10.png"></p>
+<li><p>重启：<code>nginx -s reload</code></p>
+</li>
+<li><p>查看nginx的进程pid： <code>cat /usr/local/nginx/logs/nginx.pid</code></p>
+</li>
+<li><p>查看版本：<code>nginx -V</code></p>
+</li>
+<li><p>修改配置文件：<code>vim /usr/local/nginx/conf/nginx.conf</code></p>
+</li>
+<li><p>修改完后测试：<code>nginx -t</code></p>
+</li>
+<li><p>查询nginx进程</p>
+<pre><code>ps aux|grep nginx</code></pre>
+</li>
+</ul>
+<p>转载自：<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_42014622/article/details/102560705">https://blog.csdn.net/weixin_42014622/article/details/102560705</a></p>
+<p>安全狗下载：<a target="_blank" rel="noopener" href="https://blog.csdn.net/jmkweb/article/details/91912414">https://blog.csdn.net/jmkweb/article/details/91912414</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/cungudafa/article/details/106871392">https://blog.csdn.net/cungudafa/article/details/106871392</a></p>
+<pre><code>cd root
+wget http://down.safedog.cn/safedog_linux64.tar.gz
+tar xzvf safedog_linux64.tar.gz
+cd safedog_an_linux64_2.8.21207/
+chmod +x install.py
+yum -y install mlocate  #locate缺失
+yum -y install pciutils #Ispci
+yum -y install lsof     #lsof
+#停止nginx
+nginx -s stop
+./install.py
+#什么都不选1,2
+完成后配置服云即可</code></pre>
 
             </div>
             <hr/>
@@ -585,7 +633,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://shenhao-stu.github.io/post/bfd4.html">https://shenhao-stu.github.io/post/bfd4.html</a>
+                    <a href="https://shenhao-stu.github.io/post/5eca.html">https://shenhao-stu.github.io/post/5eca.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -623,8 +671,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Picgo/">
-                                    <span class="chip bg-color">Picgo</span>
+                                <a href="/tags/nginx/">
+                                    <span class="chip bg-color">nginx</span>
+                                </a>
+                            
+                                <a href="/tags/centos/">
+                                    <span class="chip bg-color">centos</span>
                                 </a>
                             
                         </div>
@@ -1055,29 +1107,85 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/post/e7ac.html">
+                <a href="/post/5eca.html">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="/medias/featureimages/16.jpg" class="responsive-img" alt="Hexo 博客部署到码云和 Coding">
+                        <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="/medias/featureimages/16.jpg" class="responsive-img" alt="centos 7-nginx的安装">
                         
-                        <span class="card-title">Hexo 博客部署到码云和 Coding</span>
+                        <span class="card-title">centos 7-nginx的安装</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Hexo 博客部署到码云和 Coding部署到 Coding 平台1. 首先去官网进行注册，也可以用第三方微信进行注册。![](https://gitee.com/shenhao-stu/picgo/raw/master/Jisoo/Hex
+                            阿里云centOS7安装Nginx及简单配置
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-09-01
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-09-03
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%BF%90%E7%BB%B4/" class="post-category">
+                                    运维
+                                </a>
+                            
+                            
                         </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/nginx/">
+                        <span class="chip bg-color">nginx</span>
+                    </a>
+                    
+                    <a href="/tags/centos/">
+                        <span class="chip bg-color">centos</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/post/6cb8.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="/medias/featureimages/23.jpg" class="responsive-img" alt="Hexo配置到阿里云">
+                        
+                        <span class="card-title">Hexo配置到阿里云</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Hexo配置到阿里云上
+相关博客的借鉴https://blog.csdn.net/NoCortY/article/details/99631249https://blog.csdn.net/cungudafa/article/details
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-09-01
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1097,64 +1205,8 @@
                         <span class="chip bg-color">Hexo</span>
                     </a>
                     
-                    <a href="/tags/Coding/">
-                        <span class="chip bg-color">Coding</span>
-                    </a>
-                    
-                    <a href="/tags/Gitee/">
-                        <span class="chip bg-color">Gitee</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/post/3254.html">
-                    <div class="card-image">
-                        
-                        <img src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://cdn.jsdelivr.net/gh/shenhao-stu/cdn/Jisoo/8.jpg" class="responsive-img" alt="Docker-2020详细教程">
-                        
-                        <span class="card-title">Docker-2020详细教程</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Docker-2020详细教程
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-30
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Linux%E8%BF%90%E7%BB%B4%E6%95%99%E7%A8%8B/" class="post-category">
-                                    Linux运维教程
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Docker/">
-                        <span class="chip bg-color">Docker</span>
-                    </a>
-                    
-                    <a href="/tags/Linux/">
-                        <span class="chip bg-color">Linux</span>
+                    <a href="/tags/Aliyun/">
+                        <span class="chip bg-color">Aliyun</span>
                     </a>
                     
                 </div>
