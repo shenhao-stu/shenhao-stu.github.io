@@ -130,20 +130,6 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/tags/Coding/</loc>
-    <lastmod>2020-09-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shenhao-blog.site/tags/Gitee/</loc>
-    <lastmod>2020-09-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://shenhao-blog.site/tags/Aliyun/</loc>
     <lastmod>2020-09-07</lastmod>
     <changefreq>daily</changefreq>
@@ -151,14 +137,7 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/tags/Picgo/</loc>
-    <lastmod>2020-09-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shenhao-blog.site/tags/Gnome/</loc>
+    <loc>https://shenhao-blog.site/tags/Royal-TSX/</loc>
     <lastmod>2020-09-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -179,13 +158,6 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/tags/Royal-TSX/</loc>
-    <lastmod>2020-09-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://shenhao-blog.site/tags/nginx/</loc>
     <lastmod>2020-09-07</lastmod>
     <changefreq>daily</changefreq>
@@ -194,6 +166,34 @@
   
   <url>
     <loc>https://shenhao-blog.site/tags/centos/</loc>
+    <lastmod>2020-09-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shenhao-blog.site/tags/Coding/</loc>
+    <lastmod>2020-09-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shenhao-blog.site/tags/Gitee/</loc>
+    <lastmod>2020-09-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shenhao-blog.site/tags/Picgo/</loc>
+    <lastmod>2020-09-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shenhao-blog.site/tags/Gnome/</loc>
     <lastmod>2020-09-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -244,14 +244,14 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/categories/Hexo%E4%B8%AA%E6%80%A7%E5%8C%96/</loc>
+    <loc>https://shenhao-blog.site/categories/Linux/</loc>
     <lastmod>2020-09-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/categories/Linux/</loc>
+    <loc>https://shenhao-blog.site/categories/Hexo%E4%B8%AA%E6%80%A7%E5%8C%96/</loc>
     <lastmod>2020-09-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
