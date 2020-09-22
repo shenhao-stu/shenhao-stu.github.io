@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shenhao-blog.site/post/4924.html</loc>
+    
+    <lastmod>2020-09-22</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shenhao-blog.site/post/f0df.html</loc>
     
     <lastmod>2020-09-22</lastmod>
@@ -179,13 +186,6 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/tags/NLP/</loc>
-    <lastmod>2020-09-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://shenhao-blog.site/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
     <lastmod>2020-09-22</lastmod>
     <changefreq>daily</changefreq>
@@ -193,7 +193,7 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/</loc>
+    <loc>https://shenhao-blog.site/tags/NLP/</loc>
     <lastmod>2020-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -201,6 +201,13 @@
   
   <url>
     <loc>https://shenhao-blog.site/tags/Picgo/</loc>
+    <lastmod>2020-09-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shenhao-blog.site/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/</loc>
     <lastmod>2020-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -307,14 +314,14 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://shenhao-blog.site/categories/Hexo%E4%B8%AA%E6%80%A7%E5%8C%96/</loc>
     <lastmod>2020-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/categories/Hexo%E4%B8%AA%E6%80%A7%E5%8C%96/</loc>
+    <loc>https://shenhao-blog.site/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2020-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
