@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://shenhao-blog.site/post/5221.html</loc>
-    
-    <lastmod>2021-03-07</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://shenhao-blog.site/post/27af.html</loc>
     
     <lastmod>2021-03-07</lastmod>
@@ -214,6 +207,13 @@
   </url>
   
   <url>
+    <loc>https://shenhao-blog.site/tags/Aliyun/</loc>
+    <lastmod>2021-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shenhao-blog.site/tags/Coding/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
@@ -235,20 +235,6 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/tags/Aliyun/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shenhao-blog.site/tags/mysql/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://shenhao-blog.site/tags/NLP/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
@@ -257,6 +243,13 @@
   
   <url>
     <loc>https://shenhao-blog.site/tags/Picgo/</loc>
+    <lastmod>2021-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shenhao-blog.site/tags/mysql/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -291,20 +284,6 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/tags/Docker%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shenhao-blog.site/tags/Gnome/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://shenhao-blog.site/tags/nginx/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
@@ -319,14 +298,14 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/tags/Flask/</loc>
+    <loc>https://shenhao-blog.site/tags/Docker%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/tags/Apache/</loc>
+    <loc>https://shenhao-blog.site/tags/Gnome/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -355,6 +334,20 @@
   
   <url>
     <loc>https://shenhao-blog.site/tags/AI/</loc>
+    <lastmod>2021-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shenhao-blog.site/tags/Flask/</loc>
+    <lastmod>2021-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shenhao-blog.site/tags/Apache/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -391,13 +384,6 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/categories/Mysql%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://shenhao-blog.site/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
@@ -412,6 +398,13 @@
   </url>
   
   <url>
+    <loc>https://shenhao-blog.site/categories/Mysql%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <lastmod>2021-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shenhao-blog.site/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
@@ -420,13 +413,6 @@
   
   <url>
     <loc>https://shenhao-blog.site/categories/Linux/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shenhao-blog.site/categories/Python/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -448,6 +434,13 @@
   
   <url>
     <loc>https://shenhao-blog.site/categories/AI/</loc>
+    <lastmod>2021-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shenhao-blog.site/categories/Python/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
