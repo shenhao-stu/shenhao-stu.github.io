@@ -200,6 +200,13 @@
   </url>
   
   <url>
+    <loc>https://shenhao-blog.site/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
+    <lastmod>2021-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shenhao-blog.site/tags/Hexo/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
@@ -228,13 +235,6 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://shenhao-blog.site/tags/NLP/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
@@ -249,14 +249,14 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/tags/mysql/</loc>
+    <loc>https://shenhao-blog.site/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/tags/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/</loc>
+    <loc>https://shenhao-blog.site/tags/mysql/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -284,6 +284,13 @@
   </url>
   
   <url>
+    <loc>https://shenhao-blog.site/tags/Docker%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2021-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shenhao-blog.site/tags/nginx/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
@@ -292,13 +299,6 @@
   
   <url>
     <loc>https://shenhao-blog.site/tags/centos/</loc>
-    <lastmod>2021-03-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shenhao-blog.site/tags/Docker%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -398,14 +398,14 @@
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/categories/Mysql%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>https://shenhao-blog.site/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://shenhao-blog.site/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://shenhao-blog.site/categories/Mysql%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2021-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
